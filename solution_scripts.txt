@@ -181,10 +181,15 @@ git clone https://github.com/Rakeshsuku/ML_Incubator_Project.git
 # Create a new branch and add solution files
 git checkout -b solutions
 
+# Add Solution files
+git add -A
 
+# Commit the solution files:
+git commit -m "added solution files"
 
+# Add new branch in online repo and push.
+git push --set-upstream origin solutions
 
-
-
-
+# See commit history:
+git log --oneline --decorate --graph --all
 
